@@ -27,11 +27,11 @@ const MyNotes = () => {
       <div className='container header'>
         <h1 className='title'>My notes</h1>
         <p className='subtitle'><i>Manage notes by @ccmendezt</i></p>
-        <Link to="/create">
-          <div className="btnCreateNote">
+        <div className="btnCreateNote">
+          <Link to="/create">
             <button type="button" className="btn btn-primary">Create note</button>
-          </div>
-        </Link>
+          </Link>
+        </div>
         <Link to="/archived">
           Archived notes
         </Link>
