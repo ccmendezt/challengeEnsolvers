@@ -28,6 +28,8 @@ react-dom, versión: 18.2.0<br />
 react-router-dom, versión: 6.11.2<br />
 vite, versión: 4.3.2<br />
 
+_Nota: Por cuestiones de tiempo no se hicieron validaciones de los campos en el Front-end_
+
 ## Instrucciónes para ejecutar el proyecto
 1. Ejecutar el script de bash llamado **_run.sh_** que se encuentra en la carpeta raíz del proyecto, al realizar esto se instalarán las dependencias necesarias para el frontend y backend, y luego ejecutará ambas aplicaciones. La primera vez que se vaya a ejecutar se debe tener en cuenta que tardará un poco más mientras instala todos los paquetes, también se debe tener en cuenta que dentro del script se configuraron las variables de entorno necesarias para que el proyecto funcione correctamente.<br />
 
