@@ -2,8 +2,8 @@
 Ejercicio sobre la implementación de una SPA hecho en hecho en **ReactJS**, **NestJS**, **TypeORM** y **PostgreSQL** para el manejo y administración de notas.<br />
 ## Proyecto Desplegado en Heroku
 _A continuación, encontrará el enlace del proyecto descrito desplegado en Heroku completamente funcional:_ <br />
-**Enlace Front-end:** https://apinotes-camilo.herokuapp.com/<br />
-**Enlace Back-end:** https://frontend-notes.herokuapp.com/#/<br />
+**Enlace Back-end:** https://apinotes-camilo.herokuapp.com/<br />
+**Enlace Front-end:** https://frontend-notes.herokuapp.com/#/<br />
 __Realizado por:__ _Cristian Camilo Méndez Trujillo_
 
 ## Dependencias Usadas Backend
