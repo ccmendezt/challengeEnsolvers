@@ -2,7 +2,7 @@
 Ejercicio sobre la implementación de una SPA hecho en hecho en **ReactJS**, **NestJS**, **TypeORM** y **PostgreSQL** para el manejo y administración de notas.<br />
 ## Proyecto Desplegado en Heroku
 _A continuación, encontrará el enlace del proyecto descrito desplegado en Heroku completamente funcional:_ <br />
-**Enlace Front-end:** https://apinotes-camilo.herokuapp.com/api/notes<br />
+**Enlace Front-end:** https://apinotes-camilo.herokuapp.com/<br />
 **Enlace Back-end:** https://frontend-notes.herokuapp.com/#/<br />
 __Realizado por:__ _Cristian Camilo Méndez Trujillo_
 
@@ -29,10 +29,11 @@ react-router-dom, versión: 6.11.2<br />
 vite, versión: 4.3.2<br />
 
 ## Instrucciónes para ejecutar el proyecto
-1. Ejecutar el script de bash llamado **_run.sh_** que se encuentra en la carpeta raíz del proyecto, al realizar esto se instalarán las dependencias necesarias para el frontend y backend, y luego ejecutará ambas aplicaciones, dentro del script se configuran las variables de entorno necesarias para que el proyecto funcione correctamente.<br />
+1. Ejecutar el script de bash llamado **_run.sh_** que se encuentra en la carpeta raíz del proyecto, al realizar esto se instalarán las dependencias necesarias para el frontend y backend, y luego ejecutará ambas aplicaciones. La primera vez que se vaya a ejecutar se debe tener en cuenta que tardará un poco más mientras instala todos los paquetes, también se debe tener en cuenta que dentro del script se configuraron las variables de entorno necesarias para que el proyecto funcione correctamente.<br />
 
 ## Tipos de peticiones a la API
-Inicialmente se debe tener en cuenta que manejé 4 tipos de métodos dentro de la API:<br />
+Inicialmente se debe tener en cuenta que manejé 4 tipos de métodos dentro de la API que se pueden hacer a través de la extensión **ThunderClient** en VSCode aunque también se puede utilizar un programa de escritorio como **Postman**:<br />
+Las siguientes peticiones se hacen al siguiente enlace en la web: https://apinotes-camilo.herokuapp.com/api/notes o si se hace en localhost: http://localhost:5000/api/notes
 1. **Post**: Para crear un recurso del servidor.
 2. **Get**: Para obtener un recurso del servidor.
 3. **Patch**: Para actualizar un recurso del servidor.
